@@ -1,2 +1,2 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, Hexlet!");
+﻿using Hexlet;// See https://aka.ms/new-console-template for more information
+Console.WriteLine(Greeting.GetMessage());
