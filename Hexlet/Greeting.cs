@@ -1,6 +1,8 @@
+using Humanizer;
+
 namespace Hexlet;
 
 public static class Greeting
 {
-    public static string GetMessage() => "C# for Brave. But I'm not";
+    public static string GetMessage() => "hexlet".Transform(To.TitleCase);
 }
